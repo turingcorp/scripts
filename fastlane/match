@@ -1,0 +1,9 @@
+
+#!/bin/bash
+
+if [ $1 ]
+   then
+        fastlane match $1 --readonly
+   else
+        echo "Error: no type provided"
+fi
