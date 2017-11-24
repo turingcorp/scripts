@@ -1,3 +1,4 @@
 #!/bin/bash
 
-./etc/apache2/certbot-auto renew
+cd /etc/apache2/
+.certbot-auto renew
