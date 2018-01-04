@@ -1,0 +1,6 @@
+#!/bin/bash
+#1 = branch
+#2 = file
+
+git fetch
+git checkout $1 -- $2
