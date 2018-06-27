@@ -1,7 +1,5 @@
 #!/bin/bash
 #1 = podspec file
-#2 = github url
 
 pod lib lint
 pod trunk push $1
-pod repo push $2 $1
