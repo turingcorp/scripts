@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /etc/apache2/
+./certbot-auto certonly --standalone
