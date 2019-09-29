@@ -1,4 +1,6 @@
 #!/bin/bash
 
 cd /etc/apache2/
+sudo service apache2 stop
 ./certbot-auto renew
+sudo service apache2 start
